@@ -1,0 +1,130 @@
+#index_hmtl
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>YC & YJ's Coding Practice</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1>예찬 & 영준의 코딩 연습</h1>
+    <ul id="main_index">
+      <li><a href="yechan.html">김예찬</a></li>
+      <li><a href="">김영준</a></li>
+    </ul>
+  </body>
+</html>
+
+#yechan_html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YC & YJ's Coding Practice</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      device-width
+      initial-scale
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>예찬 & 영준의 코딩 연습</h1>
+    <ul id="main_index">
+      <li><a href="">Home</a></li>
+      <li><a href="yechan.html">김예찬</a></li>
+      <li><a href="">김영준</a></li>
+    </ul>
+    <div class="borad_wrap">
+      <div class="borad_title">
+        <strong>Code</strong>
+        <p>매일 공부한 코드를 업로드 해요.</p>
+      </div>
+      <div class="borad_list_wrap">
+        <div class="borad_list"></div>
+        <div class="borad_page"></div>
+        <div class="bt_wrap">
+          <a href="#" class="on">목록</a>
+          <a href="#">수정</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+#css.css
+@import url(style.css);
+@import url(media.css);
+
+#style.css
+* {
+  margin: 0;
+  padding: 0;
+  background-color: powderblue;
+}
+html {
+  font-size: 10px;
+}
+ul,
+li {
+  list-style: none;
+}
+
+#main_index {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  border-bottom: 2px solid gray;
+  margin: 0;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.board_wrap;
+ {
+  width: 1000px;
+  margin: 100px auto;
+}
+.board_title {
+  margin-bottom: 30px;
+}
+.board_title strong {
+  font-size: : 3rem;
+}
+.board_title p{
+  margin-top: 5px;
+  font-size: 1.4rem;
+}
+
+.bt_wrap{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0;
+}
+
+.bt_wrap a{
+  display: inline-block;
+  min-width: 80px;
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  font-size: 1.4rem;
+}
+.bt_wrap a:first-child{
+  margin-left: 0;
+}
+
+.bt_wrap a.on{
+  background: : #000;
+  color: #fff;
+}
