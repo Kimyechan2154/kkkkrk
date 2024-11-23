@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <style>* {
+      <style>
+      * {
   margin: 0;
   padding: 0;
   background-color: powderblue;
 }
+
 html {
   font-size: 10px;
 }
@@ -15,7 +17,7 @@ ul, li {
 
 #main_index {
   font-size: 20px;
-}
+} 
 
 h1 {
   text-align: center;
@@ -128,20 +130,20 @@ a {
     } 
     .board_page a.num.on {
         border-color: #000;
-        backgroud: #000;
-        color: #fff;
+        background-color: #000;
+        color: #fff; 
     }
     .board_page a.bt:first-child{
     border-left: 1px solid #ddd;
         
     }
     .board_page a.bt{
-        padding-top: 10px;
+        padding-top: 5px;
         font-size: 1.2rem;
         letter-spacing: -1px;
     }
     .board_page a.num{
-        padding-top: 9px;
+        padding-top: 4px;
         font-size: 1.4rem;
     }
 </style>
